@@ -1,0 +1,13 @@
+{
+  "SchemaVersion": 1,
+  "Name": "GPIO_RTApp_MT3620_BareMetal",
+  "ComponentId": "6583cf17-d321-4d72-8283-0b7c5b56442b",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "Gpio": [ 3 ],
+    "I2cMaster": [ "ISU0" ],
+    "SpiMaster": [ "ISU1" ]
+  },
+  "ApplicationType": "RealTimeCapable"
+}
